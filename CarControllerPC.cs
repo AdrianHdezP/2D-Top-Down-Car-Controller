@@ -34,7 +34,7 @@ public class CarControllerPC : MonoBehaviour
     private void DirectionAndRotation()
     {
 
-        // Direction: Si la los vectores apuntan a la misma direccion da un valor positivo y si apuntan en otra da un valor negativo
+        // Direction: Si los vectores apuntan a la misma direccion da un valor positivo y si apuntan en otra da un valor negativo
         direction = Mathf.Sign(Vector2.Dot(rb.velocity, rb.GetRelativeVector(Vector2.up)));
 
         // Rotation
